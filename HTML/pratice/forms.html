@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        input{
+            background-color: aqua;
+        }
+        #fristname{
+            background-color: black;
+        }
+        form{
+            background-color: brown;
+        }
+        body{
+            background-color: rgb(198, 186, 186);
+        }
+        #time{
+            background-color: aquamarine;
+        }
+        #reset{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is my form</h1>
+    <form action="url" method="get">
+        <label for="fristname">first name</label>
+        <input type="text" name="First" id="fristname" placeholder="name">
+        <label for="last">last name</label>
+        <input type="text" name="last" id="last">
+        <br/>
+        <hr/>
+        <label for="email">Email</label>
+        <input type="email" name="e" id="email" placeholder="abc@gmail.com">
+        <label for="number">Phone number</label>
+        <input type="tel" name="t" id="number" placeholder="888888888S">
+        <br/>
+        <hr/>
+        <label for="pass">password</label>
+        <input type="password" name="p" id="pass">
+        <label for="confrimpass">confrim pass</label>
+        <input type="password" name="p" id="confrimpass">
+        <br/>
+        <hr/>
+        <label for="time">birth day</label>
+        <input type="datetime-local" name="y" id="time">
+        <label for="co">colour</label>
+        <input type="color" name="" id="co">
+        <br/>
+        <hr/>
+        <input type="file" name="" id="fi">
+        <label for="ch">are u reday</label>
+        <input type="checkbox" name="" id="ch">
+        <br/>
+        <hr/>
+        <label for="">image</label>
+        <input type="image" src="./554033-fc-barcelona.jpg"alt="hr" width="200px">
+        <label for="">radio</label>
+        <input type="radio" name="" id="">
+        <label for="">range</label>
+        <input type="range" name="" id="heloo" min="10" max="100">
+        <br/>
+        <hr/>
+        <label for="">search</label>
+        <input type="search" name="" id="">
+        <label for="">option</label>
+        <select name="" id="ed">
+            <option value="ed">1</option>
+            <option value="ed">2</option>
+            <option value="ed">3</option>
+        </select>
+        <label for="">reset</label>
+        <input type="reset" value="" id="reset">
+        <label for="">button</label>
+        <input type="button" value="button">
+        <label for="">submit</label>
+        <input type="submit" value="pay">
+
+    </form>
+</body>
+</html>
